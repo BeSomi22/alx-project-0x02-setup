@@ -37,4 +37,4 @@ export const getStaticProps = async() =>{
     }
 }
 
-export default UserCard;
+export default UserPage;
