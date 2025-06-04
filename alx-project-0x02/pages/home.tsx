@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import Card from "@/components/common/Card";
 import PostModal from '@/components/common/PostModal';
+import Header from '@/components/layout/Header';
 
 const HomePage: React.FC = () => {
   const [modalOpen, setModalOpen] = useState(false);
@@ -15,6 +16,7 @@ const HomePage: React.FC = () => {
 
   return (
     <div className="p-8">
+      <Header/>
       <h1 className="text-2xl font-bold mb-6">Home Page</h1>
 
       <button
